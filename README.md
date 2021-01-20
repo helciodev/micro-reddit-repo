@@ -1,20 +1,20 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 
-# Newsweek homepage clone
-This project consists of replicating the The newsweek site home page putting emphasis on using the css framework Bootstrap and how the page behaves differently depending on the size of the screen where the website is rendered.
+# Micro-reddit
+This project consists of creating a light weight version of reddit called micro-reddit with emphasis in the model part of Ruby on Rails, data modeling and testing our active record knowledge or ORM('object relational mapping')
 
-**Mobile view screenShot**
+**User table**
 
-![moblie view](assets/images/mobile-view.png)
+![user table in Rails console](app/assets/images/User_table.png)
 
-**Tablet view screenShot**
+**Post table**
 
-![tablet view](assets/images/tablet-view.png)
+![post table in Rails console](app/assets/images/Post_table.png)
 
-**Laptop view screenShot**
+**Comment table**
 
-![desktop view](assets/images/desktop-view.png)
+![comment table in Rails console](app/assets/images/User_table.png)
 
 ## Sample of The Next Web Page Website Clone with the following features:
 
@@ -25,41 +25,27 @@ This project consists of replicating the The newsweek site home page putting emp
 
 ## Built With
 
-- [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
-- [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
-- ![desktop view](assets/images/sass.png)   
-- [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
-
-## Live Demo
-
-[Live Demo Link](https://helciodev.github.io/newsweek-site-clone/)
-
-**See the page via the link above**
-
-**See the Source Page via the link below**
-
-[Source Page Link](https://newsweek.com/)
+- Ruby on Rails
 
 ## Getting Started
 
-To get a local copy of this repository up and running follow these simple steps:
-
 ### Prerequisites
 
-- A PC or device with internet connection with the ability to use command line  or terminal.
+If you intend to download the project, you will need to have Ruby already installed on your machine. For more information on how to install Ruby, follow [this link.](https://www.ruby-lang.org/en/downloads/)
 
-### Setup
+### Installation instructions
 
-- Open the command line  or terminal
+Follow along the steps below to get a copy on your local machine.
 
-### Install
+- Navigate to the directory where you want this project to live and then clone it `git clone git@github.com:helciodev/micro-reddit-repo.git`
+- Navigate to the `micro-reddit-repo` directory
+- install the gem package with `bundle install`
+- Migrate the database on your local machine with `rails db:migrate`
+- Open the console ($ rails console)
 
-- Go to your preferred directory
-- Run git clone git@github.com:ArreyTabe/The-Next-Web-Clone.git command
+**To get your own copy of our project clone the repository to your local machine.**
 
-### Usage
-
-- Open index.html file in any modern browser
+[repository](https://github.com/helciodev/micro-reddit-repo)
 
 ## Authors
 
@@ -67,13 +53,25 @@ To get a local copy of this repository up and running follow these simple steps:
 
 - GitHub: [@helciodev](https://github.com/helciodev)
 - Twitter: [@helcio_bruno](https://twitter.com/helcio_bruno)
+- Linkedin: [Helcio Andre](https://www.linkedin.com/in/helcio-andre/)
+
+👤 **Ray King**
+
+- GitHub [rayKing12](GitHub.com/rayking12)
+- Linkedin: [Ray King](https://www.linkedin.com/in/king-ray-514b89133/)
+
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/helciodev/micro-reddit-repo/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
+
 ## 📝 License
 
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
-
-
+This project is [MIT](./LICENSE) licensed.
