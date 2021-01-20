@@ -16,12 +16,11 @@ This project consists of creating a light weight version of reddit called micro-
 
 ![comment table in Rails console](app/assets/images/User_table.png)
 
-## Sample of The Next Web Page Website Clone with the following features:
+## This project has the following features:
 
-- Navigation Bar
-- Main section
-- Articles
-- Footer
+- User table
+- Post table
+- Comment table
 
 ## Built With
 
